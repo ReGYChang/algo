@@ -1,6 +1,6 @@
 # LeetCode
 
-> The Solution of leetcode problem
+> As the saying goes: “Practice makes you better"
 
 [![](https://camo.githubusercontent.com/34c5f3c2cc4dd9aafcd8d2fe7641f9ed3ca7a3c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c616e67756167652d4a6176612d79656c6c6f772e737667)](https://developer.apple.com/.md)
 
