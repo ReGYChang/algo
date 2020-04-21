@@ -7,11 +7,11 @@
   Below record my solution and all my problem-sovling ideas, hope you have a good time.
 
 ***
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|1|[Two Sum](https://leetcode.com/problems/unique-number-of-occurrences/) | [JAVA]|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/unique-number-of-occurrences/) | [JAVA]|Medium|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/unique-number-of-occurrences/) | [JAVA]|Medium|
-|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/unique-number-of-occurrences/) | [JAVA]|Hard|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/unique-number-of-occurrences/) | [JAVA]|Medium|
+| # | Title | Tag | Solution | Difficulty |
+|---| ----- | --- | -------- | ---------- |
+|1| [Two Sum](https://leetcode.com/problems/unique-number-of-occurrences/) | Array , HashTable | [JAVA] | Easy |
+|2| [Add Two Numbers](https://leetcode.com/problems/unique-number-of-occurrences/) | LinkedList | [JAVA] | Medium |
+|3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/unique-number-of-occurrences/) | HashTable | [JAVA] | Medium |
+|4| [Median of Two Sorted Arrays](https://leetcode.com/problems/unique-number-of-occurrences/) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|5| [Longest Palindromic Substring](https://leetcode.com/problems/unique-number-of-occurrences/) | dynamic-programming | [JAVA] | Medium |
 ***
