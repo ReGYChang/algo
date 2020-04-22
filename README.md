@@ -9,7 +9,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|1| [Two Sum](https://leetcode.com/problems/unique-number-of-occurrences/) | Array , HashTable | [JAVA] | Easy |
+|1| [Two Sum](https://github.com/ReGYChang/LeetCode/tree/master/%5B1%5DTwo%20Sum) | Array , HashTable | [JAVA] | Easy |
 |2| [Add Two Numbers](https://leetcode.com/problems/unique-number-of-occurrences/) | LinkedList | [JAVA] | Medium |
 |3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/unique-number-of-occurrences/) | HashTable | [JAVA] | Medium |
 |4| [Median of Two Sorted Arrays](https://leetcode.com/problems/unique-number-of-occurrences/) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
