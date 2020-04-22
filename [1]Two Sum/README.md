@@ -24,7 +24,7 @@ nums = [2,7,7,8,8,9], target = 10
 <br>
 
 ## Solution
-### Approach 1
+### Approach 1  Brute Force
 #### Algo Goal
 > 找出相加結果與Target相同的不重複兩元素
 #### Processing
@@ -48,3 +48,5 @@ nums = [2,7,7,8,8,9], target = 10
     }
 ```
 #### Analysis
+> Time Complexity: O(n^2) 
+> Space Complexity: O(1)
