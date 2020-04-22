@@ -6,6 +6,25 @@
 
   Below record my solution and all my problem-sovling ideas, hope you have a good time.
 
+## AGENDA
+*   [ALL](#all)
+*   [Data Structure](#block)
+    *   [Array](#array)
+    *   [Dynamic Programming](#dp)
+    *   [Hash Table](#hashTable)
+    *   [Binary Search](#binarySearch)
+    *   [Sort](#sort)
+    *   [Linked List](#linkedList)
+    *   [Divide and Conquer](#divide-conquer)
+
+*   [Difficult](#span)
+    *   [Easy](#link)
+    *   [Medium](#em)
+    *   [Hard](#code)
+*   [感謝](#acknowledgement)
+
+<h2 id = "all">全部題目</h2>
+
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
@@ -15,3 +34,16 @@
 |4| [Median of Two Sorted Arrays](https://leetcode.com/problems/unique-number-of-occurrences/) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 |5| [Longest Palindromic Substring](https://leetcode.com/problems/unique-number-of-occurrences/) | dynamic-programming | [JAVA] | Medium |
 ***
+
+<h2 id = "all">資料結構</h2>
+
+
+
+
+
+<h2 id = "all">難度</h2>
+
+
+
+<h2 id = "all">感謝</h2>
+
