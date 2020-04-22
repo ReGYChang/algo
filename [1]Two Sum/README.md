@@ -48,5 +48,7 @@ nums = [2,7,7,8,8,9], target = 10
     }
 ```
 #### Analysis
-> Time Complexity: O(n^2) 
-> Space Complexity: O(1)
+
+    Time Complexity: O(n^2) 
+    
+    Space Complexity: O(1)
