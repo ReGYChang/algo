@@ -17,10 +17,10 @@
     *   [Linked List](#linkedList)
     *   [Divide and Conquer](#divide-conquer)
 
-*   [Difficult](#span)
-    *   [Easy](#link)
-    *   [Medium](#em)
-    *   [Hard](#code)
+*   [Difficult](#difficult)
+    *   [Easy](#easy)
+    *   [Medium](#medium)
+    *   [Hard](#hard)
 *   [感謝](#acknowledgement)
 
 <h2 id = "all">全部題目</h2>
@@ -28,11 +28,11 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|1| [Two Sum](https://github.com/ReGYChang/LeetCode/tree/master/%5B1%5DTwo%20Sum) | Array , HashTable | [JAVA] | Easy |
-|2| [Add Two Numbers](https://leetcode.com/problems/unique-number-of-occurrences/) | LinkedList | [JAVA] | Medium |
-|3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/unique-number-of-occurrences/) | HashTable | [JAVA] | Medium |
-|4| [Median of Two Sorted Arrays](https://leetcode.com/problems/unique-number-of-occurrences/) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
-|5| [Longest Palindromic Substring](https://leetcode.com/problems/unique-number-of-occurrences/) | dynamic-programming | [JAVA] | Medium |
+|1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/README.md) | Array , HashTable | [JAVA] | Easy |
+|2| [Add Two Numbers]() | LinkedList | [JAVA] | Medium |
+|3| [Longest Substring Without Repeating Characters]() | HashTable | [JAVA] | Medium |
+|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|5| [Longest Palindromic Substring]() | dynamic-programming | [JAVA] | Medium |
 ***
 
 <h2 id = "all">資料結構</h2>
