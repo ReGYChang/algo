@@ -24,7 +24,7 @@ nums = [2,7,7,8,8,9], target = 10
 <br>
 
 ## Solution
-### Approach 1  Brute Force
+### Approach 1 - Brute Force
 #### Algo Goal
 > 找出相加結果與Target相同的不重複兩元素
 #### Processing
@@ -56,11 +56,11 @@ nums = [2,7,7,8,8,9], target = 10
     
     Space Complexity: O(1)
 ---
-### Approach 2  Result Record
+### Approach 2 - Result Record
 #### Algo Goal
 > 找出符合目標之兩元素
 #### Processing
-> 利用HashMap紀錄<元素與目標差距,元素位置>，用一個for loop 檢查當前元素是否相同於HashMap<br>
+> 利用`HashMap`紀錄`<元素與目標差距,元素位置>`，用一個for loop 檢查當前元素是否相同於HashMap<br>
   已存在之Key，若存在則回傳當前陣列位置與目標Key值之Value。
 #### Code
 ```JAVA
