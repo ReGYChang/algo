@@ -13,7 +13,6 @@
     *   [Dynamic Programming](#dp)
     *   [Hash Table](#hashTable)
     *   [Binary Search](#binarySearch)
-    *   [Sort](#sort)
     *   [Linked List](#linkedList)
     *   [Divide and Conquer](#divide_conquer)
 
