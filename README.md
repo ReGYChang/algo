@@ -28,10 +28,10 @@
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/README.md) | Array , HashTable | [JAVA] | Easy |
-|2| [Add Two Numbers]() | LinkedList | [JAVA] | Medium |
-|3| [Longest Substring Without Repeating Characters]() | HashTable | [JAVA] | Medium |
-|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
-|5| [Longest Palindromic Substring]() | dynamic-programming | [JAVA] | Medium |
+|2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
+|3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
+|4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 ***
 
 <h2 id = "data_structure">資料結構</h2>
@@ -42,7 +42,7 @@
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/README.md) | Array , HashTable | [JAVA] | Easy |
-|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
 ***
 
@@ -51,7 +51,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|5| [Longest Palindromic Substring]() | dynamic-programming | [JAVA] | Medium |
+|5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 ***
 
 <h3 id = "hashTable">Hash Table</h3>
@@ -60,7 +60,7 @@
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/README.md) | Array , HashTable | [JAVA] | Easy |
-
+|3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
 ***
 
 <h3 id = "binarySearch">Binary Search</h3>
@@ -68,7 +68,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
 ***
 
@@ -77,7 +77,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|2| [Add Two Numbers]() | LinkedList | [JAVA] | Medium |
+|2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
 
 ***
 
@@ -86,7 +86,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
 ***
 
@@ -106,9 +106,9 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|2| [Add Two Numbers]() | LinkedList | [JAVA] | Medium |
-|3| [Longest Substring Without Repeating Characters]() | HashTable | [JAVA] | Medium |
-|5| [Longest Palindromic Substring]() | dynamic-programming | [JAVA] | Medium |
+|2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
+|3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
+|5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 
 ***
 
@@ -117,7 +117,7 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|4| [Median of Two Sorted Arrays]() | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
 ***
 
