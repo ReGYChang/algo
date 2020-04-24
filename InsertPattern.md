@@ -16,16 +16,16 @@ example case...
 ## Corner Cases
 > Corner cases of problem...
 ```
-nums = [2,7,7,8,8,9], target = 10
+some corner cases of this problem...
 ```
 <br>
 
 ## Solution
 ### Approach 1 - Brute Force
 #### Algo Goal
-> 找出相加結果與Target相同的不重複兩元素
+> algo goal of the approach...
 #### Processing
-> 用for loop 在兩兩元素間檢查是否符合條件，如遇到相同元素則Continue，直到找到結果為止。
+> algo processing of the approach...
 #### Code
 ```
     solution with what kind of code...
@@ -40,7 +40,9 @@ nums = [2,7,7,8,8,9], target = 10
     Space Complexity: O(?)
     
 ---
+
 <h1>HOME_README insert SOP</h1>
+
 * ALL
 * Data-Structure
 * Difficult
