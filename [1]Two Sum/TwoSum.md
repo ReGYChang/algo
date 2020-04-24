@@ -19,7 +19,7 @@ return [0, 1].
 ## Corner Cases
 > 注意重複之元素不可復用
 ```
-nums = [2,7,7,8,8,9], target = 10
+nums = [2,7,7,8,9], target = 15
 ```
 <br>
 
