@@ -48,7 +48,38 @@ nums = [2,7,7,8,8,9], target = 10
     }
 ```
 #### Analysis
+* 29/29 cases passed (82 ms)
+* Your runtime beats 8.28 % of java submissions
+* Your memory usage beats 5.65 % of java submissions (39.6 MB)
 
     Time Complexity: O(n^2) 
     
     Space Complexity: O(1)
+
+### Approach 2  Result Record
+#### Algo Goal
+> 找出符合目標之兩元素
+#### Processing
+> 利用HashMap紀錄<元素與目標差距,元素位置>，用一個for loop 檢查當前元素是否相同於HashMap<br>
+  已存在之Key，若存在則回傳當前陣列位置與目標Key值之Value。
+#### Code
+```JAVA
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer,Integer> recordMap = new HashMap<>();
+        for(int i = 0; i < nums.length; i ++){
+                if(recordMap.containsKey(nums[i])){
+                    return new int[] {recordMap.get(nums[i]), i};
+                }
+            recordMap.put(target - nums[i], i);
+        }
+        return null;
+    }
+```
+#### Analysis
+* 29/29 cases passed (1 ms)
+* Your runtime beats 99.91 % of java submissions
+* Your memory usage beats 5.65 % of java submissions (39.9 MB)
+
+    Time Complexity: O(n) 
+    
+    Space Complexity: O(1)  
