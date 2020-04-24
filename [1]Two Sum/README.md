@@ -55,7 +55,7 @@ nums = [2,7,7,8,8,9], target = 10
     Time Complexity: O(n^2) 
     
     Space Complexity: O(1)
-
+---
 ### Approach 2  Result Record
 #### Algo Goal
 > 找出符合目標之兩元素
