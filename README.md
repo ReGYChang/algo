@@ -5,6 +5,10 @@
 [![](https://camo.githubusercontent.com/34c5f3c2cc4dd9aafcd8d2fe7641f9ed3ca7a3c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c616e67756167652d4a6176612d79656c6c6f772e737667)](https://developer.apple.com/.md)
 
   Below record my solution and all my problem-sovling ideas, hope you have a good time.
+  
+## 食用說明
+- 🆕表示最近新增的內容
+- 🖊表示最近更新的內容
 
 ## AGENDA
 *   [ALL](#all)
@@ -27,11 +31,11 @@
 ***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
-|1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
+|1| [Two Sum　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
 |2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
 |3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
-|5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
+|5| [Longest Palindromic Substring　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 ***
 
 <h2 id = "data_structure">資料結構</h2>
