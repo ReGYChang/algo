@@ -28,7 +28,7 @@ nums = [2,7,7,8,9], target = 15
 #### Algo Goal
 > 找出相加結果與Target相同的不重複兩元素
 #### Processing
-> 用for loop 在兩兩元素間檢查是否符合條件，如遇到相同元素則Continue，直到找到結果為止。
+`用for loop 在兩兩元素間相加檢查是否符合條件，如遇到相同元素則Continue，直到找到結果為止。`
 #### Code
 ```JAVA
     public int[] twoSum(int[] nums, int target) {
@@ -58,10 +58,13 @@ nums = [2,7,7,8,9], target = 15
 ---
 ### Approach 2 - Result Record
 #### Algo Goal
-> 找出符合目標之兩元素
+> 求每個元素與目標值之差值找到滿足條件倆元素
 #### Processing
-> 利用`HashMap`紀錄`<元素與目標差距,元素位置>`，用一個for loop 檢查當前元素是否相同於HashMap<br>
-  已存在之Key，若存在則回傳當前陣列位置與目標Key值之Value。
+```
+利用`HashMap`紀錄`<元素與目標差值,元素位置>`，用一個for loop 檢查當前元素是否相同於HashMap
+
+已存在之Key，若存在則表示找到目標差值，並回傳當前陣列位置與目標Key值之Value。
+```
 #### Code
 ```JAVA
     public int[] twoSum(int[] nums, int target) {
