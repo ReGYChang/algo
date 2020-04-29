@@ -28,7 +28,7 @@
 
 <h2 id = "all">全部題目</h2>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
@@ -36,98 +36,100 @@
 |3| [Longest Substring Without Repeating Characters 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
 |4| [Median of Two Sorted Arrays 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 |5| [Longest Palindromic Substring　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
-|7| [Reverse Integer　🆕]() | math | [JAVA] | Easy |
-|8| [String To Integer(atoi)　🆕]() | math, String | [JAVA] | Medium |
-|1143| [Longest Common Subsequence　🆕]() | dynamic-programming | [JAVA] | Medium |
-***
+|7| [Reverse Integer　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B7%5DReverse%20Integer/Reverse-Integer.md) | math | [JAVA] | Easy |
+|8| [String To Integer(atoi)　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
+|1143| [Longest Common Subsequence　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B1143%5DLongest%20Common%20Subsequence/LongestCommonSubsequence.md) | dynamic-programming | [JAVA] | Medium |
+
 
 <h2 id = "data_structure">資料結構</h2>
 
 <h3 id = "array">Array</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
-***
+
 
 <h3 id = "dp">Dynamic Programming</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 |1143| [Longest Common Subsequence]() | dynamic-programming | [JAVA] | Medium |
-***
+
 
 <h3 id = "hashTable">Hash Table</h3>
 
-***
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
 |3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
-***
+
 
 <h3 id = "binarySearch">Binary Search</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
-***
+
 
 <h3 id = "linkedList">Linked List</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
 
-***
+
 
 <h3 id = "divide_conquer">Divide and Conquer</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
 
-***
+
 
 <h2 id = "all">難度</h2>
 
 <h3 id = "easy">Easy</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
+|7| [Reverse Integer](https://github.com/ReGYChang/LeetCode/blob/master/%5B7%5DReverse%20Integer/Reverse-Integer.md) | math | [JAVA] | Easy |
 
-***
 
-<h3 id = "mediu,">Medium</h3>
 
-***
+<h3 id = "medium,">Medium</h3>
+
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
 |3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
 |5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
 
-***
+
 
 <h3 id = "hard">Hard</h3>
 
-***
+
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
+|8| [String To Integer(atoi)](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
+|1143| [Longest Common Subsequence](https://github.com/ReGYChang/LeetCode/blob/master/%5B1143%5DLongest%20Common%20Subsequence/LongestCommonSubsequence.md) | dynamic-programming | [JAVA] | Medium |
 
-***
+
 
 
 <h2 id = "all">感謝</h2>
