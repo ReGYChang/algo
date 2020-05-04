@@ -19,6 +19,7 @@
     *   [Binary Search](#binarySearch)
     *   [Linked List](#linkedList)
     *   [Divide and Conquer](#divide_conquer)
+    *   [String](#string)
 
 *   [Difficult](#difficult)
     *   [Easy](#easy)
@@ -33,11 +34,13 @@
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
 |2| [Add Two Numbers 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
-|3| [Longest Substring Without Repeating Characters 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
+|3| [Longest Substring Without Repeating Characters 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable, String | [JAVA] | Medium |
 |4| [Median of Two Sorted Arrays 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
-|5| [Longest Palindromic Substring　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
+|5| [Longest Palindromic Substring　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming,String | [JAVA] | Medium |
 |7| [Reverse Integer　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B7%5DReverse%20Integer/Reverse-Integer.md) | math | [JAVA] | Easy |
 |8| [String To Integer(atoi)　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
+|9| [Palindrome Number　🆕](./[9]Palindrome%20Number/PalindromeNumber.md) | math | [JAVA] | Easy |
+|10| [Regular Expression Matching　🆕](./[10]Regular%20Expression%20Matching/RegularExpressionMatching.md) | string | dynamic-programming | backtracking | [JAVA] | Hard |
 |1143| [Longest Common Subsequence　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B1143%5DLongest%20Common%20Subsequence/LongestCommonSubsequence.md) | dynamic-programming | [JAVA] | Medium |
 
 
@@ -59,6 +62,7 @@
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
+|10| [Regular Expression Matching　🆕](./[10]Regular%20Expression%20Matching/RegularExpressionMatching.md) | string | dynamic-programming | backtracking | [JAVA] | Hard |
 |1143| [Longest Common Subsequence]() | dynamic-programming | [JAVA] | Medium |
 
 
@@ -97,6 +101,18 @@
 
 
 
+<h3 id = "string">String</h3>
+
+
+| # | Title | Tag | Solution | Difficulty |
+|---| ----- | --- | -------- | ---------- |
+|3| [Longest Substring Without Repeating Characters 🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable, String | [JAVA] | Medium |
+|5| [Longest Palindromic Substring　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming,String | [JAVA] | Medium |
+|8| [String To Integer(atoi)　🆕](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
+|10| [Regular Expression Matching　🆕](./[10]Regular%20Expression%20Matching/RegularExpressionMatching.md) | string | dynamic-programming | backtracking | [JAVA] | Hard |
+
+
+
 <h2 id = "all">難度</h2>
 
 <h3 id = "easy">Easy</h3>
@@ -117,6 +133,9 @@
 |2| [Add Two Numbers](https://github.com/ReGYChang/LeetCode/blob/master/%5B2%5DAdd%20Two%20Numbers/AddTwoNumbers.md) | LinkedList | [JAVA] | Medium |
 |3| [Longest Substring Without Repeating Characters](https://github.com/ReGYChang/LeetCode/blob/master/%5B3%5DLongest%C2%A0Substring%C2%A0Without%C2%A0Repeating%C2%A0Characters/LongestSubstringWithoutRepeatingCharacters.md) | HashTable | [JAVA] | Medium |
 |5| [Longest Palindromic Substring](https://github.com/ReGYChang/LeetCode/blob/master/%5B5%5DLongest%20Palindromic%20SubString/LongestPalindromicSubString.md) | dynamic-programming | [JAVA] | Medium |
+|8| [String To Integer(atoi)](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
+|1143| [Longest Common Subsequence](https://github.com/ReGYChang/LeetCode/blob/master/%5B1143%5DLongest%20Common%20Subsequence/LongestCommonSubsequence.md) | dynamic-programming | [JAVA] | Medium |
+
 
 
 
@@ -126,8 +145,7 @@
 | # | Title | Tag | Solution | Difficulty |
 |---| ----- | --- | -------- | ---------- |
 |4| [Median of Two Sorted Arrays](https://github.com/ReGYChang/LeetCode/blob/master/%5B4%5DMedian%20of%20Two%20Sorted%20Array/MedianofTwoSortedArray.md) | Binary-Search , Divide and Conquer , Array | [JAVA] | Hard |
-|8| [String To Integer(atoi)](https://github.com/ReGYChang/LeetCode/blob/master/%5B8%5DString%20To%20Integer%20(atoi)/StringToInteger-atoi.md) | math, String | [JAVA] | Medium |
-|1143| [Longest Common Subsequence](https://github.com/ReGYChang/LeetCode/blob/master/%5B1143%5DLongest%20Common%20Subsequence/LongestCommonSubsequence.md) | dynamic-programming | [JAVA] | Medium |
+|10| [Regular Expression Matching　🆕](./[10]Regular%20Expression%20Matching/RegularExpressionMatching.md) | string | dynamic-programming | backtracking | [JAVA] | Hard |
 
 
 
