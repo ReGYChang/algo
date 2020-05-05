@@ -124,6 +124,7 @@
 |---| ----- | --- | -------- | ---------- |
 |1| [Two Sum](https://github.com/ReGYChang/LeetCode/blob/master/%5B1%5DTwo%20Sum/TwoSum.md) | Array , HashTable | [JAVA] | Easy |
 |7| [Reverse Integer](https://github.com/ReGYChang/LeetCode/blob/master/%5B7%5DReverse%20Integer/Reverse-Integer.md) | math | [JAVA] | Easy |
+|9| [Palindrome Number　🆕](./[9]Palindrome%20Number/PalindromeNumber.md) | math | [JAVA] | Easy |
 
 
 
