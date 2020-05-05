@@ -39,7 +39,7 @@ Coud you solve it without converting the integer to a string?
 > 將int每一位數拆開並判斷是否為Palindromic
 #### Processing
 - 判斷int是否為負數(若為負數 return false)
-- while loop 將int每一位數拆開純入list
+- while loop 將int每一位數拆開存入list
 - 用Stack先進後出的特性檢查左右半邊位數是否符合Palindromic
 #### Code
 ```JAVA

@@ -68,15 +68,15 @@ Output: false
 ## Solution
 ### Approach 1 - Dynamic Programming
 #### Algo Goal
-> 通過二維陣列dp[i,j]紀錄p[0..j]是否Matchings[0..i]
+> 通過二維陣列dp[i,j]紀錄p[0..j]是否Matching s[0..i]
 #### Processing
 題目要求判斷兩字串s,p是否相符，利用dynamic programming的方式記錄中間狀態
 
-p字串中元素可分為兩類: 
+p字串中元素可分為兩類 : 
 - a-z character or '.'
 - '*'
 
-其中'*'的狀態又可分兩類:
+其中'*'的狀態又可分兩類 :
 - zero preceding element
 - one to more preceding element
 
