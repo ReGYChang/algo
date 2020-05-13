@@ -3,8 +3,9 @@
 A Junior JAVA developer and motivated learner,specilizing in the field of system backend knowledges.
 
 ## Contact
-:octocat: <a href="https://github.com/ReGYChang">https://github.com/ReGYChang</a><br>
-:envelope: <a href="mailto:p714140432@gmail.com">p714140432@gmail.com</a>
+Github : <a href="https://github.com/ReGYChang">https://github.com/ReGYChang</a> :floppy_disk:<br>
+E-Mail : <a href="mailto:p714140432@gmail.com">p714140432@gmail.com</a> :envelope:<br>
+Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 
 ## Tech Stack
 - Backend: JAVA | Python
@@ -12,7 +13,7 @@ A Junior JAVA developer and motivated learner,specilizing in the field of system
 - Framework: Spring | Struts2 | Mybatis
 - Android APP: Kotlin
 - Database: SQL Server | Firebase | MongoDB | Redis | SQLite
-- Tool: Git | SVN | VS Code | AWS
+- Tool: Git | SVN | VS Code | AWS | Linux | Nginx
 - Others: Algorithm | Networks | Operation System
 
 ## Projects
