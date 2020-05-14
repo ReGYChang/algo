@@ -29,14 +29,14 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
   - 運用 AWS EC2 主機架設Linux server
   - 運用 Redis Pub/Sub 達到即時通訊效果 
   - 運用 Mongo DB 存儲主要資料
-- **[Leetcode](https://github.com/ReGYChang/LeetCode)** : `紀錄 Leetcode 各種解題思路與方法`
+- **[leetcode](https://github.com/ReGYChang/LeetCode)** : `紀錄 Leetcode 各種解題思路與方法`
   - Built with Markdown, HTML, CSS
-- **[Course List](https://github.com/repo-analytics/repo-analytics.github.io)** : `校務資訊系統課程時間表預覽功能`
+- **[courseList](https://github.com/repo-analytics/repo-analytics.github.io)** : `校務資訊系統課程時間表預覽功能`
   - 運用Selenium Package 與 BeautifulSoup Package抓取課程資訊整理並呈現於UI
   - Built with Python / Tkinter / Selenium / BeautifulSoup
 
 ## Working Experience
-<h3 style="float : left">長春藤生技公司 - 產學合作專案</h3>
+<h3 style="float : left" >長春藤生技公司 - 產學合作專案</h3>
 <h3 style="float : right">2019.4</h3>
 <div style="content:'';display:table;;clear:both"></div>
 
@@ -53,4 +53,6 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 ## Education
 <h3 style="float : left">長庚大學 - 資訊管理學系</h3>
 <h3 style="float : right">2016 – 2020</h3>
+
+
 
