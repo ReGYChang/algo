@@ -17,7 +17,7 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 - Others: Algorithm | Networks | Operation System
 
 ## Projects
-- **[ReGY's Inspiration](https://github.com/ReGYChang/LeetCode)** : `自行架設於VPS之個人網站`
+- **[ReGY's Inspiration](https://regy.dev)** : `自行架設於VPS之個人網站`
   - Frontend: Vue.js, freemarker
   - Backend: JAVA, SpringBoot, h2/MySQL
   - Server: CentOS 7, Nginx, Cloudflare
