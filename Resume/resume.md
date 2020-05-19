@@ -28,7 +28,7 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
   - 使用技術: Kotlin, Firebase
   - 於Heroku架設文本相似度分析API
   - 串接Google natural language API 進行語意情緒分析
-- **CowChat** : `為滿足CowPet APP 使用者的社交需求而設計的聊天軟體`
+- **[CowChat](https://github.com/cowpetno1/CowChat)** : `為滿足CowPet APP 使用者的社交需求而設計的聊天軟體`
   - 職責: 主程式開發, 系統分析設計
   - 使用技術: JAVA, MongoDB, Redis, AWS
   - 運用 AWS EC2 主機架設Linux server
