@@ -17,11 +17,12 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 - Others: Algorithm | Networks | Operation System
 
 ## Projects
-- **[ReGY's Inspiration](https://github.com/ReGYChang/LeetCode)** : `結合遊戲元素及社群性，透過匿名發文及牧場經營讓使用者達到壓力抒發之Android APP`
-  - 職責: 主畫面程式開發, 系統分析設計 
-  - 使用技術: Kotlin, Firebase
-  - 於Heroku架設文本相似度分析API
-  - 串接Google natural language API 進行語意情緒分析
+- **[ReGY's Inspiration](https://github.com/ReGYChang/LeetCode)** : `自行架設於VPS之個人網站`
+  - Frontend: Vue.js, freemarker
+  - Backend: JAVA, SpringBoot, h2/MySQL
+  - Server: CentOS 7, Nginx, Cloudflare
+  - <a href="https://github.com/ReGYChang/halo">Github open source application</a>
+  
 - **CowPet** : `結合遊戲元素及社群性，透過匿名發文及牧場經營讓使用者達到壓力抒發之Android APP`
   - 職責: 主畫面程式開發, 系統分析設計 
   - 使用技術: Kotlin, Firebase
