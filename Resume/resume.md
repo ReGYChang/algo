@@ -12,12 +12,16 @@ Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 - Frontend: HTML | CSS | JavaScript / JQuery
 - Framework: Spring | Struts2 | Mybatis
 - Android APP: Kotlin
-- Database: SQL Server | Firebase | MongoDB | Redis | SQLite
+- Database: MS SQL | Firebase | MongoDB | Redis | SQLite
 - Tool: Git | SVN | VS Code | AWS | Linux | Nginx
 - Others: Algorithm | Networks | Operation System
 
 ## Projects
-
+- **[ReGY's Inspiration](https://github.com/ReGYChang/LeetCode)** : `結合遊戲元素及社群性，透過匿名發文及牧場經營讓使用者達到壓力抒發之Android APP`
+  - 職責: 主畫面程式開發, 系統分析設計 
+  - 使用技術: Kotlin, Firebase
+  - 於Heroku架設文本相似度分析API
+  - 串接Google natural language API 進行語意情緒分析
 - **CowPet** : `結合遊戲元素及社群性，透過匿名發文及牧場經營讓使用者達到壓力抒發之Android APP`
   - 職責: 主畫面程式開發, 系統分析設計 
   - 使用技術: Kotlin, Firebase
