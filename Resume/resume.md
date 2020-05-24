@@ -8,10 +8,9 @@ E-Mail : <a href="mailto:p714140432@gmail.com">p714140432@gmail.com</a> :envelop
 Web Site : <a href="regy.dev">regy.dev</a> :pencil2:
 
 ## Tech Stack
-- Backend: JAVA | Python
+- Backend: JAVA | Kotlin | Python
 - Frontend: HTML | CSS | JavaScript / JQuery
 - Framework: Spring | Struts2 | Mybatis
-- Android APP: Kotlin
 - Database: MS SQL | Firebase | MongoDB | Redis | SQLite
 - Tool: Git | SVN | VS Code | AWS | Linux | Nginx
 - Others: Algorithm | Networks | Operation System
