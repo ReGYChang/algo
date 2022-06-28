@@ -43,27 +43,27 @@ Coud you solve it without converting the integer to a string?
 - 用Stack先進後出的特性檢查左右半邊位數是否符合Palindromic
 #### Code
 ```JAVA
-    public boolean isPalindrome(int x) {
-        if(x < 0) return false
-        int curr = x, len = 0;
-        Stack stack = new Stack<>();
-        List<Integer> list = new ArrayList();
-        while(curr >= 1){
-            list.add(curr % 10);
-            curr /= 10;
-            len ++;
-        }
-
-        int mid = len % 2 == 0 ? len / 2 - 1 : len / 2;
-
-        for(int i = 0; i <= mid; i++)
-            stack.push(list.get(i));
-        if(len % 2 == 1) stack.pop();
-        for(int i = mid + 1; i < len ; i ++)
-            if(stack.pop() != list.get(i)) return false;
-
-        return true;
+public boolean isPalindrome(int x) {
+    if(x < 0) return false
+    int curr = x, len = 0;
+    Stack stack = new Stack<>();
+    List<Integer> list = new ArrayList();
+    while(curr >= 1){
+        list.add(curr % 10);
+        curr /= 10;
+        len ++;
     }
+
+    int mid = len % 2 == 0 ? len / 2 - 1 : len / 2;
+
+    for(int i = 0; i <= mid; i++)
+        stack.push(list.get(i));
+    if(len % 2 == 1) stack.pop();
+    for(int i = mid + 1; i < len ; i ++)
+        if(stack.pop() != list.get(i)) return false;
+
+    return true;
+}
 ```
 #### Analysis
 * 11509/11509 cases passed (10 ms)
