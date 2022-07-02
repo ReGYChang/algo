@@ -26,7 +26,7 @@ func pivotIndex2(nums []int) int {
 	}
 	sum += nums[0]
 	for i := 0; i < l; i++ {
-		if s[i] == sum - s[i] - nums[i] {
+		if s[i] == sum-s[i]-nums[i] {
 			return i
 		}
 	}
@@ -40,7 +40,7 @@ func pivotIndex3(nums []int) int {
 		sum += val
 	}
 	for i := 0; i < l; i++ {
-		if leftSum == sum - leftSum - nums[i] {
+		if leftSum == sum-leftSum-nums[i] {
 			return i
 		}
 		leftSum += nums[i]
