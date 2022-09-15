@@ -2,8 +2,8 @@ package main
 
 import "testing"
 
-//Runtime: 3 ms, faster than 57.51% of Go online submissions for Longest Palindrome.
-//Memory Usage: 2.1 MB, less than 28.28% of Go online submissions for Longest Palindrome.
+// Runtime: 3 ms, faster than 57.51% of Go online submissions for Longest Palindrome.
+// Memory Usage: 2.1 MB, less than 82.31% of Go online submissions for Longest Palindrome.
 
 func Test_longestPalindrome(t *testing.T) {
 	type args struct {

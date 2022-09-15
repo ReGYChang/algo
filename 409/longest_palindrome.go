@@ -11,7 +11,9 @@ func longestPalindrome(s string) int {
 			res += v
 		} else {
 			res += v - 1
-			oddExist = true
+			if !oddExist {
+				oddExist = true
+			}
 		}
 	}
 
