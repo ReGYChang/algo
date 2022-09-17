@@ -39,9 +39,10 @@ func preorder(root *Node) []int {
 ## Complexity Analysis
 
 - Time complexity: O(n)
-    
-    Where `n` is the number of nodes in the given n-ary tree.
-  
+  - Where `n` is the number of nodes in the given n-ary tree.
+  - Runtime: 3 ms, faster than 75.23% of Go online submissions for N-ary Tree Preorder Traversal.
+
 - Space complexity: O(n)
-  
-     the max recursive depth can be `n` if the tree is skewed one.
+  - the max recursive depth can be `n` if the tree is skewed one.
+  - Memory Usage: 6.2 MB, less than 34.38% of Go online submissions for N-ary Tree Preorder Traversal.
+
