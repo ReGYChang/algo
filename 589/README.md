@@ -62,14 +62,14 @@ type Node struct {
 	Children []*Node
 }
 
-func preorder(root *Node) []int {
+func preorderRecursive(root *Node) []int {
 	if root == nil {
 		return nil
 	}
 
 	s := []int{root.Val}
 	for i := 0; i < len(root.Children); i++ {
-		tmp := preorder(root.Children[i])
+		tmp := preorderRecursive(root.Children[i])
 		if tmp != nil {
 			s = append(s, tmp...)
 		}
@@ -105,20 +105,24 @@ type Node struct {
 	Children []*Node
 }
 
-func preorder(root *Node) []int {
+func preorderIterative(root *Node) []int {
 	if root == nil {
 		return nil
 	}
 
-	s := []int{root.Val}
-	for i := 0; i < len(root.Children); i++ {
-		tmp := preorder(root.Children[i])
-		if tmp != nil {
-			s = append(s, tmp...)
+	stack := []*Node{root}
+	result := make([]int, 0)
+
+	for i := len(stack); i > 0; i = len(stack) {
+		head := stack[i-1]
+		result = append(result, head.Val)
+		stack = stack[:i-1]
+		for j := len(head.Children); j > 0; j-- {
+			stack = append(stack, head.Children[j-1])
 		}
 	}
 
-	return s
+	return result
 }
 ```
 
