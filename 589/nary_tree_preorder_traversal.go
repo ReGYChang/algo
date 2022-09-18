@@ -33,13 +33,17 @@ func preorderIterative(root *Node) []int {
 	stack := []*Node{root}
 	result := make([]int, 0)
 
-	for i := len(stack); i > 0; {
-		result = append(result, stack[i-1].Val)
-		for j := len(stack[0].Children); j > 0; j-- {
-			stack = append(stack, stack[0].Children[j-1])
+	for i := len(stack); i > 0; i = len(stack) {
+		head := stack[i-1]
+		result = append(result, head.Val)
+		stack = stack[:i-1]
+		for j := len(head.Children); j > 0; j-- {
+			stack = append(stack, head.Children[j-1])
 		}
-		stack = stack[1:]
 	}
 
 	return result
 }
+
+//Runtime: 0 ms, faster than 100.00% of Go online submissions for N-ary Tree Preorder Traversal.
+//Memory Usage: 4.1 MB, less than 79.22% of Go online submissions for N-ary Tree Preorder Traversal.

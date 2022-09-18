@@ -1,3 +1,14 @@
+- [Problem](#problem)
+  - [Example 1](#example-1)
+  - [Example 2](#example-2)
+  - [Example 3](#example-3)
+  - [Constraints](#constraints)
+  - [Follow up](#follow-up)
+- [Approach 1: Iteratively](#approach-1-iteratively)
+  - [Algorithm](#algorithm)
+  - [Implementation](#implementation)
+  - [Complexity Analysis](#complexity-analysis)
+
 # Problem
 
 Given the head of a linked list, return the node where the cycle begins. If
@@ -12,7 +23,7 @@ parameter.
 > Do not modify the linked list.
 
 
-## Example 1:
+## Example 1
 
 - Input: head = [3,2,0,-4], pos = 1
 - Output: tail connects to node index 1
@@ -20,20 +31,20 @@ parameter.
 second node.
 
 
-## Example 2:
+## Example 2
 
 - Input: head = [1,2], pos = 0
 - Output: tail connects to node index 0
 - Explanation: There is a cycle in the linked list, where tail connects to the
 first node.
 
-## Example 3:
+## Example 3
 
 - Input: head = [1], pos = -1
 - Output: no cycle
 - Explanation: There is no cycle in the linked list.
 
-## Constraints:
+## Constraints
 
 - The number of the nodes in the list is in the range [0, 10⁴].
 - -10⁵ <= Node.val <= 10⁵
