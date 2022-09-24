@@ -7,7 +7,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func isValidBST(root *TreeNode) bool {
+func isValidBSTStack(root *TreeNode) bool {
 	stack := make([]*TreeNode, 0)
 	pNode := root
 	previous := -2 << 31
@@ -23,6 +23,40 @@ func isValidBST(root *TreeNode) bool {
 			}
 			previous = node.Val
 			pNode = node.Right
+		}
+	}
+	return true
+}
+
+func isValidBSTMorris(root *TreeNode) bool {
+	cur, pre := root, root
+	preVal := -2 << 31
+	for cur != nil {
+		if cur.Left == nil {
+			if cur.Val <= preVal {
+				return false
+			}
+			preVal = cur.Val
+
+			cur = cur.Right
+		} else {
+			pre = cur.Left
+			for pre.Right != nil && pre.Right != cur {
+				pre = pre.Right
+			}
+
+			if pre.Right == nil {
+				pre.Right = cur
+				cur = cur.Left
+			} else {
+				if cur.Val <= preVal {
+					return false
+				}
+				preVal = cur.Val
+
+				pre.Right = nil
+				cur = cur.Right
+			}
 		}
 	}
 	return true
