@@ -54,7 +54,7 @@ nums = [2,7,7,8,9], target = 15
 * Your runtime beats 8.28 % of java submissions
 * Your memory usage beats 5.65 % of java submissions (39.6 MB)
 
-    Time Complexity: O(n^2) 
+    Time Complexity: O($n^2$) 
     
     Space Complexity: O(1)
 ---

@@ -1,3 +1,16 @@
+- [Problem](#problem)
+	- [Example 1](#example-1)
+	- [Example 2](#example-2)
+	- [Constraints](#constraints)
+- [Approach 1: Stack based iterative](#approach-1-stack-based-iterative)
+	- [Algorithm](#algorithm)
+	- [Implementation](#implementation)
+	- [Complexity Analysis](#complexity-analysis)
+- [Approach 2: Morris Traversal](#approach-2-morris-traversal)
+	- [Algorithm](#algorithm-1)
+	- [Implementation](#implementation-1)
+	- [Complexity Analysis](#complexity-analysis-1)
+
 # Problem
 
 Given the root of a binary tree, determine if it is a valid binary search tree (BST).

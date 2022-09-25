@@ -65,8 +65,8 @@ func fibRecursive(n int) int {
 
 ## Complexity Analysis
 
-- Time complexity: O(2^n)
-  - Recursion tree which will have depth `n` and intuitively figure out that this function is asymptotically O(2^n)
+- Time complexity: O($2^n$)
+  - Recursion tree which will have depth `n` and intuitively figure out that this function is asymptotically O($2^n$)
   - Runtime: 13 ms, faster than 21.35% of Go online submissions for Fibonacci Number.
 
 - Space complexity: O(n)
