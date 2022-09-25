@@ -81,8 +81,73 @@ func isValidBST(root *TreeNode) bool {
 
 - Time complexity: O(n)
   - Where `n` is the number of nodes in the given tree.
-  - Runtime: 8 ms, faster than 65.95% of Go online submissions for Validate Binary Search Tree.
+  - Runtime: 8 ms, faster than 100% of Go online submissions for Validate Binary Search Tree.
 
 - Space complexity: O(n)
   - The max stack space can be `n` if the tree is left skewed one.
   - Memory Usage: 5.2 MB, less than 85.09% of Go online submissions for Validate Binary Search Tree.
+
+# Approach 2: Morris Traversal
+
+## Algorithm
+
+Morris Traversal 可以做到不使用遞迴或 stack 即可完成 tree traversal, 優化空間複雜度至 `O(1)`
+
+> 需要構建一種機制使得左子樹遍歷完後能返回對應父節點並繼續遍歷幼子樹
+
+
+
+## Implementation
+
+```go
+// TreeNode Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func isValidBSTMorris(root *TreeNode) bool {
+	cur, pre := root, root
+	preVal := -2 << 31
+	for cur != nil {
+		if cur.Left == nil {
+			if cur.Val <= preVal {
+				return false
+			}
+			preVal = cur.Val
+
+			cur = cur.Right
+		} else {
+			pre = cur.Left
+			for pre.Right != nil && pre.Right != cur {
+				pre = pre.Right
+			}
+
+			if pre.Right == nil {
+				pre.Right = cur
+				cur = cur.Left
+			} else {
+				if cur.Val <= preVal {
+					return false
+				}
+				preVal = cur.Val
+
+				pre.Right = nil
+				cur = cur.Right
+			}
+		}
+	}
+	return true
+}
+```
+
+## Complexity Analysis
+
+- Time complexity: O(n)
+  - Where `n` is the number of nodes in the given tree.
+  - Runtime: 7 ms, faster than 73.40% of Go online submissions for Validate Binary Search Tree.
+
+- Space complexity: O(1)
+  - Only constant space is used.
+  - Memory Usage: 5 MB, less than 96.39% of Go online submissions for Validate Binary Search Tree.

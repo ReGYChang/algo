@@ -9,21 +9,21 @@ type TreeNode struct {
 
 func isValidBSTStack(root *TreeNode) bool {
 	stack := make([]*TreeNode, 0)
-	pNode := root
+	cur := root
 	previous := -2 << 31
-	for len(stack) > 0 || pNode != nil {
-		if pNode != nil {
-			stack = append(stack, pNode)
-			pNode = pNode.Left
-		} else {
-			node := stack[len(stack)-1]
-			stack = stack[:len(stack)-1]
-			if node.Val <= previous {
-				return false
-			}
-			previous = node.Val
-			pNode = node.Right
+	for len(stack) > 0 || cur != nil {
+		for cur != nil {
+			stack = append(stack, cur)
+			cur = cur.Left
 		}
+
+		node := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		if node.Val <= previous {
+			return false
+		}
+		previous = node.Val
+		cur = node.Right
 	}
 	return true
 }

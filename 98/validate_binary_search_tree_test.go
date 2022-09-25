@@ -4,7 +4,7 @@ import "testing"
 
 var NULL = -1 << 63
 
-//Runtime: 8 ms, faster than 65.95% of Go online submissions for Validate Binary Search Tree.
+//Runtime: 0 ms, faster than 100.00% of Go online submissions for Validate Binary Search Tree.
 //Memory Usage: 5.2 MB, less than 85.09% of Go online submissions for Validate Binary Search Tree.
 
 func Test_isValidBSTStack_98(t *testing.T) {
