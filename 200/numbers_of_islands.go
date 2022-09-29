@@ -1,16 +1,16 @@
 package main
 
 func numIslands(grid [][]byte) int {
-	m := make([][]bool, len(grid), len(grid))
-	for i := 0; i < len(m); i++ {
-		m[i] = make([]bool, len(grid[i]), len(grid[i]))
+	table := make([][]bool, len(grid), len(grid))
+	for i := 0; i < len(table); i++ {
+		table[i] = make([]bool, len(grid[i]), len(grid[i]))
 	}
 
 	count := 0
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[i]); j++ {
-			if !m[i][j] && grid[i][j] == '1' {
-				isIsland(i, j, &m, grid)
+			if !table[i][j] && grid[i][j] == '1' {
+				isIsland(i, j, &table, grid)
 				count++
 			}
 		}
