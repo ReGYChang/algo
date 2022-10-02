@@ -82,10 +82,10 @@ func isValidBST(root *TreeNode) bool {
 
 ## Complexity Analysis
 
-- Time complexity: O($log{n}$)
+- Time complexity: $O(log{n})$
   - Where `n` is the height of given tree.
   - Runtime: 41 ms, faster than 58.20% of Go online submissions for Lowest Common Ancestor of a Binary Search Tree.
 
-- Space complexity: O($log{n}$)
+- Space complexity: $O(log{n})$
   - Where `n` is the height of given tree.
   - Memory Usage: 7.2 MB, less than 80.32% of Go online submissions for Lowest Common Ancestor of a Binary Search Tree.

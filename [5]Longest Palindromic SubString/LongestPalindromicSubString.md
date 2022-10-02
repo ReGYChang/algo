@@ -83,7 +83,7 @@ Input: "" || Input: "ac" || Input: "cccc" || Input: "bababd" || Input: "cbbd"
 #### Analysis
 * Time Limit Exceeded
 
-    Time Complexity: O($n^3$) 
+    Time Complexity: $O(n^3)$ 
     
     Space Complexity: O(1)
     
@@ -134,9 +134,9 @@ P[i,j] = (Si == Sj && P[i + 1][j - 1])
 * Your runtime beats 28.92 % of java submissions
 * Your memory usage beats 6.45 % of java submissions (47.7 MB)
 
-    Time Complexity: O($n^2$) 
+    Time Complexity: $O(n^2)$ 
     
-    Space Complexity: O($n^2$)
+    Space Complexity: $O(n^2)$
     
 ---
 ### Approach 3 - Expand Around Center
@@ -181,6 +181,6 @@ Example:    "a`b`a"   ||  "a`bb`a"
 * Your runtime beats 90.11 % of java submissions
 * Your memory usage beats 52.02 % of java submissions (37.9 MB)
 
-    Time Complexity: O($n^2$) 
+    Time Complexity: $O(n^2)$ 
     
     Space Complexity: O(1)

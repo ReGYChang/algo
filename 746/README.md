@@ -83,6 +83,6 @@ func min(i, j int) int {
   - Where `n` is the length of given slice.
   - Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths.
 
-- Space complexity: O($m*n$)
+- Space complexity: $O(m*n)$
   - Where `n` is the length of given slice.
   - Memory Usage: 3.1 MB, less than 43.33% of Go online submissions for Min Cost Climbing Stairs.

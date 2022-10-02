@@ -76,9 +76,9 @@ dp_array[i][j] = char_array1[i - 1] == char_array2[j - 1] ?
 * Your runtime beats 45.08 % of java submissions
 * Your memory usage beats 100 % of java submissions (49.8 MB)
 
-    Time Complexity: O($n^2$) 
+    Time Complexity: $O(n^2)$ 
     
-    Space Complexity: O($n^2$)
+    Space Complexity: $O(n^2)$
 ---
 
 

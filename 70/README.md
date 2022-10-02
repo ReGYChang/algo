@@ -65,10 +65,10 @@ func climbStairs(n int) int {
 
 ## Complexity Analysis
 
-- Time complexity: O($n$)
+- Time complexity: $O(n)$
   - Where `n` is the intergers given.
   - Runtime: 0 ms, faster than 100.00% of Go online submissions for Climbing Stairs.
 
-- Space complexity: O($n$)
+- Space complexity: $O(n)$
   - Where `n` is the intergers given.
   - Memory Usage: 1.9 MB, less than 91.21% of Go online submissions for Climbing Stairs.

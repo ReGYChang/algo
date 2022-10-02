@@ -1,11 +1,11 @@
 - [Problem](#problem)
-  - [Example 1](#example-1)
-  - [Example 2](#example-2)
-  - [Constraints](#constraints)
+	- [Example 1](#example-1)
+	- [Example 2](#example-2)
+	- [Constraints](#constraints)
 - [Approach 1: DFS](#approach-1-dfs)
-  - [Algorithm](#algorithm)
-  - [Implementation](#implementation)
-  - [Complexity Analysis](#complexity-analysis)
+	- [Algorithm](#algorithm)
+	- [Implementation](#implementation)
+	- [Complexity Analysis](#complexity-analysis)
 
 # Problem
 
@@ -94,10 +94,10 @@ func isIsland(gr, gc int, m *[][]bool, grid [][]byte) {
 
 ## Complexity Analysis
 
-- Time complexity: O($m*n$)
+- Time complexity: $O(m*n)$
   - Where `m == grid.length` and `n == grid[i].length`.
   - Runtime: 3 ms, faster than 90.84% of Go online submissions for Number of Islands.
 
-- Space complexity: O($m*n$)
+- Space complexity: $O(m*n)$
   - Where `m == grid.length` and `n == grid[i].length`.
   - Memory Usage: 4 MB, less than 46.68% of Go online submissions for Number of Islands.

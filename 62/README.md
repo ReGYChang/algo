@@ -70,10 +70,10 @@ func uniquePaths(m int, n int) int {
 
 ## Complexity Analysis
 
-- Time complexity: O($m*n$)
+- Time complexity: $O(m*n)$
   - Where `m` and `n` is the intergers given.
   - Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths.
 
-- Space complexity: O($m*n$)
+- Space complexity: $O(m*n)$
   - Where `m` and `n` is the intergers given.
   - Memory Usage: 1.9 MB, less than 75.66% of Go online submissions for Unique Paths.
