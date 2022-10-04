@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-//Runtime: 15 ms, faster than 67.29% of Go online submissions for Find All Anagrams in a String.
+//Runtime: 9 ms, faster than 84.02% of Go online submissions for Find All Anagrams in a String.
 //Memory Usage: 5.1 MB, less than 56.20% of Go online submissions for Find All Anagrams in a String.
 
 func Test_findAnagrams(t *testing.T) {
