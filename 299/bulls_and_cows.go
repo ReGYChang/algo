@@ -5,19 +5,14 @@ import "fmt"
 func getHint(secret string, guess string) string {
 	a, b, l := 0, 0, len(secret)
 	sFreq := [10]int{}
-	for i := 0; i < l; i++ {
-		sFreq[secret[i]-'0']++
-	}
 	gFreq := [10]int{}
-	for i := 0; i < l; i++ {
-		gFreq[guess[i]-'0']++
-	}
 
 	for i := 0; i < l; i++ {
 		if secret[i] == guess[i] {
 			a++
-			sFreq[secret[i]-'0']--
-			gFreq[guess[i]-'0']--
+		} else {
+			sFreq[secret[i]-'0']++
+			gFreq[guess[i]-'0']++
 		}
 	}
 	for i := 0; i < 10; i++ {

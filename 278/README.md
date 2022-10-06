@@ -1,3 +1,12 @@
+- [Problem](#problem)
+	- [Example 1:](#example-1)
+	- [Example 2:](#example-2)
+	- [Constraints:](#constraints)
+- [Approach 1: Binary Search](#approach-1-binary-search)
+	- [Algorithm](#algorithm)
+	- [Implementation](#implementation)
+	- [Complexity Analysis](#complexity-analysis)
+
 # Problem
 
 You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of
