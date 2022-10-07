@@ -1,11 +1,11 @@
 - [Problem](#problem)
-  - [Example 1:](#example-1)
-  - [Example 2:](#example-2)
-  - [Constraints:](#constraints)
+	- [Example 1:](#example-1)
+	- [Example 2:](#example-2)
+	- [Constraints:](#constraints)
 - [Approach 1: Array](#approach-1-array)
-  - [Algorithm](#algorithm)
-  - [Implementation](#implementation)
-  - [Complexity Analysis](#complexity-analysis)
+	- [Algorithm](#algorithm)
+	- [Implementation](#implementation)
+	- [Complexity Analysis](#complexity-analysis)
 
 # Problem
 
