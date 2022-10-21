@@ -6,7 +6,7 @@ import (
 )
 
 //Runtime: 7 ms, faster than 90.19% of Go online submissions for Remove Linked List Elements.
-//Memory Usage: 5.1 MB, less than 5.19% of Go online submissions for Remove Linked List Elements.
+// Memory Usage: 5 MB, less than 14.07% of Go online submissions for Remove Linked List Elements.
 
 func Test_removeElements(t *testing.T) {
 	type args struct {
