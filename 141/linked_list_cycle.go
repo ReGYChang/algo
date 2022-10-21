@@ -26,10 +26,10 @@ func hasCycleHashMap(head *ListNode) bool {
 func hasCycleTwoPointer(head *ListNode) bool {
 	var slow, fast = head, head
 	for fast != nil && fast.Next != nil {
-		if fast != slow {
-			fast = fast.Next.Next
-			slow = slow.Next
-		} else {
+		fast = fast.Next.Next
+		slow = slow.Next
+
+		if fast == slow {
 			return true
 		}
 	}

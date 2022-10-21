@@ -53,6 +53,9 @@ func Test_hasCycleHashMap(t *testing.T) {
 	}
 }
 
+//Runtime: 0 ms, faster than 100.00% of Go online submissions for Linked List Cycle.
+//Memory Usage: 4.3 MB, less than 100.00% of Go online submissions for Linked List Cycle.
+
 func Test_hasCycleTwoPointer(t *testing.T) {
 	type args struct {
 		head []int
@@ -100,9 +103,6 @@ func Test_hasCycleTwoPointer(t *testing.T) {
 		})
 	}
 }
-
-//Runtime: 0 ms, faster than 100.00% of Go online submissions for Linked List Cycle.
-//Memory Usage: 4.3 MB, less than 100.00% of Go online submissions for Linked List Cycle.
 
 // Ints2List convert []int to List
 func Ints2List(nums []int) *ListNode {
