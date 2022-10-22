@@ -1,6 +1,10 @@
 package main
 
 func uniquePaths(m int, n int) int {
+	if m == 1 && n == 1 {
+		return 1
+	}
+
 	dp := make([][]int, m, m)
 	for i := 0; i < m; i++ {
 		dp[i] = make([]int, n, n)
