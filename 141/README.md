@@ -1,16 +1,16 @@
 - [Problem](#problem)
-  - [Example 1](#example-1)
-  - [Example 2](#example-2)
-  - [Example 3](#example-3)
-  - [Constraints](#constraints)
+	- [Example 1](#example-1)
+	- [Example 2](#example-2)
+	- [Example 3](#example-3)
+	- [Constraints](#constraints)
 - [Approach 1: Hash Map](#approach-1-hash-map)
-  - [Algorithm](#algorithm)
-  - [Implementation](#implementation)
-  - [Complexity Analysis](#complexity-analysis)
-- [Approach 1: Two Pointer](#approach-1-two-pointer)
-  - [Algorithm](#algorithm-1)
-  - [Implementation](#implementation-1)
-  - [Complexity Analysis](#complexity-analysis-1)
+	- [Algorithm](#algorithm)
+	- [Implementation](#implementation)
+	- [Complexity Analysis](#complexity-analysis)
+- [Approach 2: Two Pointer](#approach-2-two-pointer)
+	- [Algorithm](#algorithm-1)
+	- [Implementation](#implementation-1)
+	- [Complexity Analysis](#complexity-analysis-1)
 
 # Problem
 
@@ -98,7 +98,7 @@ func hasCycleHashMap(head *ListNode) bool {
     - Where `n` is the number of nodes in the given linked list.
     - Memory Usage: 6.4 MB, less than 16.93% of Go online submissions for Linked List Cycle.
 
-# Approach 1: Two Pointer
+# Approach 2: Two Pointer
 
 ## Algorithm
 

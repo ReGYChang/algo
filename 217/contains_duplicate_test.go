@@ -2,6 +2,9 @@ package main
 
 import "testing"
 
+//Runtime: 92 ms, faster than 80.51% of Go online submissions for Contains Duplicate.
+//Memory Usage: 8.9 MB, less than 66.21% of Go online submissions for Contains Duplicate.
+
 func Test_containsDuplicate(t *testing.T) {
 	type args struct {
 		nums []int
