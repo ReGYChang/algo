@@ -5,9 +5,9 @@ func floodFill(image [][]int, sr int, sc int, color int) [][]int {
 	origin := image[sr][sc]
 
 	image[sr][sc] = color
-	m := make([][]bool, len(image), len(image))
+	m := make([][]bool, len(image))
 	for i := 0; i < len(m); i++ {
-		m[i] = make([]bool, len(image[i]), len(image[i]))
+		m[i] = make([]bool, len(image[i]))
 	}
 
 	for len(queue) > 0 {

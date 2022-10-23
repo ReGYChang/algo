@@ -1,9 +1,9 @@
 package main
 
 func numIslands(grid [][]byte) int {
-	table := make([][]bool, len(grid), len(grid))
+	table := make([][]bool, len(grid))
 	for i := 0; i < len(table); i++ {
-		table[i] = make([]bool, len(grid[i]), len(grid[i]))
+		table[i] = make([]bool, len(grid[i]))
 	}
 
 	count := 0

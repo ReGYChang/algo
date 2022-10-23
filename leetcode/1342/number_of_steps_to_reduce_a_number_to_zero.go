@@ -5,7 +5,7 @@ func numberOfSteps(num int) int {
 	for {
 		if num == 0 {
 			return ans
-		} else if num & 1 == 0 {
+		} else if num&1 == 0 {
 			// num /= 2
 			num = num >> 1
 		} else {

@@ -2,7 +2,7 @@ package main
 
 func minCostClimbingStairs(cost []int) int {
 	l := len(cost)
-	dp := make([]int, l, l)
+	dp := make([]int, l)
 	dp[0] = cost[0]
 	dp[1] = cost[1]
 

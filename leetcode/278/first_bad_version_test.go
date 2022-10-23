@@ -7,8 +7,7 @@ import "testing"
 
 func Test_firstBadVersion_278(t *testing.T) {
 	type args struct {
-		n   int
-		bad int
+		n int
 	}
 	tests := []struct {
 		name string

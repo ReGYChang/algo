@@ -30,6 +30,5 @@ func Test_twoSum(t *testing.T) {
 	}
 }
 
-
 // Runtime: 9 ms, faster than 65.01% of Go online submissions for Two Sum.
 // Memory Usage: 4.4 MB, less than 29.00% of Go online submissions for Two Sum.

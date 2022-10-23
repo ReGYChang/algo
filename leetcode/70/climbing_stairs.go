@@ -5,7 +5,7 @@ func climbStairs(n int) int {
 		return 1
 	}
 
-	dp := make([]int, n+1, n+1)
+	dp := make([]int, n+1)
 	dp[0] = 1
 	dp[1] = 1
 

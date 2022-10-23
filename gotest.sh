@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "==> Testing that code with test cases..."
+
 set -e
 echo "" > coverage.txt
 

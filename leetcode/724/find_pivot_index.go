@@ -1,7 +1,7 @@
 package main
 
 func pivotIndex(nums []int) int {
-	for idx, _ := range nums {
+	for idx := range nums {
 		var leftSum, rightSum int
 		for _, val := range nums[:idx] {
 			leftSum += val

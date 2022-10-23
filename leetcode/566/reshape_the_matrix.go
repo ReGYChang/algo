@@ -6,7 +6,7 @@ func matrixReshape(mat [][]int, r int, c int) [][]int {
 		return mat
 	}
 
-	queue := make([]int, m*n, m*n)
+	queue := make([]int, m*n)
 	idx := 0
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
@@ -15,9 +15,9 @@ func matrixReshape(mat [][]int, r int, c int) [][]int {
 		}
 	}
 
-	res := make([][]int, r, r)
+	res := make([][]int, r)
 	for i := 0; i < r; i++ {
-		res[i] = make([]int, c, c)
+		res[i] = make([]int, c)
 	}
 
 	idx = 0

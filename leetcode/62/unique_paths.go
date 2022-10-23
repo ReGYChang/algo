@@ -5,9 +5,9 @@ func uniquePaths(m int, n int) int {
 		return 1
 	}
 
-	dp := make([][]int, m, m)
+	dp := make([][]int, m)
 	for i := 0; i < m; i++ {
-		dp[i] = make([]int, n, n)
+		dp[i] = make([]int, n)
 	}
 
 	for i := 1; i < m; i++ {
