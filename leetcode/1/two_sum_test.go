@@ -15,11 +15,46 @@ func Test_twoSum(t *testing.T) {
 		args args
 		want []int
 	}{
-		{"two sum", args{[]int{2, 7, 11, 5}, 9}, []int{0, 1}},
-		{"two sum", args{[]int{3, 2, 4}, 6}, []int{1, 2}},
-		{"two sum", args{[]int{3, 3}, 6}, []int{0, 1}},
-		{"two sum", args{[]int{-2, 7, -11, 5}, -4}, []int{1, 2}},
-		{"two sum", args{[]int{3, 5, 16, -9}, 7}, []int{2, 3}},
+		{
+			name: "1-1",
+			args: args{
+				nums:   []int{2, 7, 11, 5},
+				target: 9,
+			},
+			want: []int{0, 1},
+		},
+		{
+			name: "1-2",
+			args: args{
+				nums:   []int{3, 2, 4},
+				target: 6,
+			},
+			want: []int{1, 2},
+		},
+		{
+			name: "1-3",
+			args: args{
+				nums:   []int{-2, 7, -11, 5},
+				target: -4,
+			},
+			want: []int{1, 2},
+		},
+		{
+			name: "1-4",
+			args: args{
+				nums:   []int{3, 5, 16, -9},
+				target: 21,
+			},
+			want: []int{1, 2},
+		},
+		{
+			name: "1-5",
+			args: args{
+				nums:   []int{3, 2, 4},
+				target: 8,
+			},
+			want: nil,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -29,6 +64,3 @@ func Test_twoSum(t *testing.T) {
 		})
 	}
 }
-
-// Runtime: 9 ms, faster than 65.01% of Go online submissions for Two Sum.
-// Memory Usage: 4.4 MB, less than 29.00% of Go online submissions for Two Sum.
