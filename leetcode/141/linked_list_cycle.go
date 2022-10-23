@@ -1,17 +1,13 @@
 package main
 
-// ListNode Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import "algo/structure"
 
-func hasCycleHashMap(head *ListNode) bool {
+func hasCycleHashMap(head *structure.ListNode) bool {
 	if head == nil {
 		return false
 	}
 
-	m := make(map[*ListNode]bool)
+	m := make(map[*structure.ListNode]bool)
 	for head.Next != nil {
 		if _, exist := m[head]; !exist {
 			m[head] = true
@@ -23,7 +19,7 @@ func hasCycleHashMap(head *ListNode) bool {
 	return false
 }
 
-func hasCycleTwoPointer(head *ListNode) bool {
+func hasCycleTwoPointer(head *structure.ListNode) bool {
 	var slow, fast = head, head
 	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next

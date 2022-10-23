@@ -1,12 +1,8 @@
 package main
 
-// ListNode Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import "algo/structure"
 
-func removeElements(head *ListNode, val int) *ListNode {
+func removeElements(head *structure.ListNode, val int) *structure.ListNode {
 	if head == nil {
 		return nil
 	}

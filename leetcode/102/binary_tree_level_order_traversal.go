@@ -1,19 +1,14 @@
 package main
 
-// TreeNode Definition for a binary tree node.
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+import "algo/structure"
 
-func levelOrder(root *TreeNode) [][]int {
+func levelOrder(root *structure.TreeNode) [][]int {
 	if root == nil {
 		return [][]int{}
 	}
 
-	queue := []*TreeNode{root}
-	queueTmp := make([]*TreeNode, 0)
+	queue := []*structure.TreeNode{root}
+	queueTmp := make([]*structure.TreeNode, 0)
 	res := make([][]int, 0)
 	level := make([]int, 0)
 
@@ -30,7 +25,7 @@ func levelOrder(root *TreeNode) [][]int {
 		if i == len(queue)-1 {
 			res = append(res, level)
 			queue = queueTmp
-			queueTmp = make([]*TreeNode, 0)
+			queueTmp = make([]*structure.TreeNode, 0)
 			level = make([]int, 0)
 			i = -1
 		}

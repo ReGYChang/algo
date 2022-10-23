@@ -3,6 +3,8 @@ package main
 import (
 	"reflect"
 	"testing"
+
+	"algo/structure"
 )
 
 //Runtime: 7 ms, faster than 90.19% of Go online submissions for Remove Linked List Elements.
@@ -45,45 +47,10 @@ func Test_removeElements(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			head := Ints2List(tt.args.head)
-			if got := removeElements(head, tt.args.val); !reflect.DeepEqual(List2Ints(got), tt.want) {
+			head := structure.Int2List(tt.args.head)
+			if got := removeElements(head, tt.args.val); !reflect.DeepEqual(structure.List2Int(got), tt.want) {
 				t.Errorf("removeElements() = %v, want %v", got, tt.want)
 			}
 		})
 	}
-}
-
-// List2Ints convert List to []int
-func List2Ints(head *ListNode) []int {
-	limit := 100
-
-	times := 0
-
-	res := []int{}
-	for head != nil {
-		times++
-		if times > limit {
-			panic("times out of limit")
-		}
-
-		res = append(res, head.Val)
-		head = head.Next
-	}
-
-	return res
-}
-
-// Ints2List convert []int to List
-func Ints2List(nums []int) *ListNode {
-	if len(nums) == 0 {
-		return nil
-	}
-
-	l := &ListNode{}
-	t := l
-	for _, v := range nums {
-		t.Next = &ListNode{Val: v}
-		t = t.Next
-	}
-	return l.Next
 }

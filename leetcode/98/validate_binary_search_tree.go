@@ -1,14 +1,9 @@
 package main
 
-// TreeNode Definition for a binary tree node.
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+import "algo/structure"
 
-func isValidBSTStack(root *TreeNode) bool {
-	stack := make([]*TreeNode, 0)
+func isValidBSTStack(root *structure.TreeNode) bool {
+	stack := make([]*structure.TreeNode, 0)
 	cur := root
 	previous := -2 << 31
 	for len(stack) > 0 || cur != nil {
@@ -28,7 +23,7 @@ func isValidBSTStack(root *TreeNode) bool {
 	return true
 }
 
-func isValidBSTMorris(root *TreeNode) bool {
+func isValidBSTMorris(root *structure.TreeNode) bool {
 	cur, pre := root, root
 	preVal := -2 << 31
 	for cur != nil {

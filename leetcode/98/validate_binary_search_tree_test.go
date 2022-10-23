@@ -1,8 +1,10 @@
 package main
 
-import "testing"
+import (
+	"testing"
 
-var NULL = -1 << 63
+	"algo/structure"
+)
 
 //Runtime: 0 ms, faster than 100.00% of Go online submissions for Validate Binary Search Tree.
 //Memory Usage: 5.2 MB, less than 85.09% of Go online submissions for Validate Binary Search Tree.
@@ -19,7 +21,7 @@ func Test_isValidBSTStack_98(t *testing.T) {
 		{
 			name: "validate binary search tree",
 			args: args{
-				input: []int{10, 5, 15, NULL, NULL, 6, 20},
+				input: []int{10, 5, 15, structure.NULL, structure.NULL, 6, 20},
 			},
 			want: false,
 		},
@@ -40,7 +42,7 @@ func Test_isValidBSTStack_98(t *testing.T) {
 		{
 			name: "validate binary search tree 4",
 			args: args{
-				input: []int{5, 1, 4, NULL, NULL, 3, 6},
+				input: []int{5, 1, 4, structure.NULL, structure.NULL, 3, 6},
 			},
 			want: false,
 		},
@@ -68,7 +70,7 @@ func Test_isValidBSTStack_98(t *testing.T) {
 		{
 			name: "validate binary search tree 8",
 			args: args{
-				input: []int{3, NULL, 30, 10, NULL, NULL, 15, NULL, 45},
+				input: []int{3, structure.NULL, 30, 10, structure.NULL, structure.NULL, 15, structure.NULL, 45},
 			},
 			want: false,
 		},
@@ -82,7 +84,7 @@ func Test_isValidBSTStack_98(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			root := Ints2TreeNode(tt.args.input)
+			root := structure.Int2TreeNode(tt.args.input)
 			if got := isValidBSTStack(root); got != tt.want {
 				t.Errorf("isValidBST() = %v, want %v", got, tt.want)
 			}
@@ -105,7 +107,7 @@ func Test_isValidBSTMorris_98(t *testing.T) {
 		{
 			name: "validate binary search tree",
 			args: args{
-				input: []int{10, 5, 15, NULL, NULL, 6, 20},
+				input: []int{10, 5, 15, structure.NULL, structure.NULL, 6, 20},
 			},
 			want: false,
 		},
@@ -126,7 +128,7 @@ func Test_isValidBSTMorris_98(t *testing.T) {
 		{
 			name: "validate binary search tree 4",
 			args: args{
-				input: []int{5, 1, 4, NULL, NULL, 3, 6},
+				input: []int{5, 1, 4, structure.NULL, structure.NULL, 3, 6},
 			},
 			want: false,
 		},
@@ -154,7 +156,7 @@ func Test_isValidBSTMorris_98(t *testing.T) {
 		{
 			name: "validate binary search tree 8",
 			args: args{
-				input: []int{3, NULL, 30, 10, NULL, NULL, 15, NULL, 45},
+				input: []int{3, structure.NULL, 30, 10, structure.NULL, structure.NULL, 15, structure.NULL, 45},
 			},
 			want: false,
 		},
@@ -168,44 +170,10 @@ func Test_isValidBSTMorris_98(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			root := Ints2TreeNode(tt.args.input)
+			root := structure.Int2TreeNode(tt.args.input)
 			if got := isValidBSTMorris(root); got != tt.want {
 				t.Errorf("isValidBST() = %v, want %v", got, tt.want)
 			}
 		})
 	}
-}
-
-func Ints2TreeNode(ints []int) *TreeNode {
-	n := len(ints)
-	if n == 0 {
-		return nil
-	}
-
-	root := &TreeNode{
-		Val: ints[0],
-	}
-
-	queue := make([]*TreeNode, 1, n*2)
-	queue[0] = root
-
-	i := 1
-	for i < n {
-		node := queue[0]
-		queue = queue[1:]
-
-		if i < n && ints[i] != NULL {
-			node.Left = &TreeNode{Val: ints[i]}
-			queue = append(queue, node.Left)
-		}
-		i++
-
-		if i < n && ints[i] != NULL {
-			node.Right = &TreeNode{Val: ints[i]}
-			queue = append(queue, node.Right)
-		}
-		i++
-	}
-
-	return root
 }

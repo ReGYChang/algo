@@ -1,12 +1,8 @@
 package main
 
-// ListNode Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import "algo/structure"
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
+func mergeTwoLists(list1 *structure.ListNode, list2 *structure.ListNode) *structure.ListNode {
 	if list1 == nil {
 		return list2
 	}
@@ -22,6 +18,3 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		return list1
 	}
 }
-
-//Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.
-//Memory Usage: 2.5 MB, less than 51.14% of Go online submissions for Merge Two Sorted Lists.
