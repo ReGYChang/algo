@@ -28,6 +28,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-aversal)                                                   | [Go](leetcode/94)      | Easy       | 100%    | 27.93%  |        |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                        | [Go](leetcode/98)      | Medium     | 100%    | 85.09%  |        |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                            | [Go](leetcode/102)     | Medium     | 67.53%  | 89.92%  |        |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)                                      | [Go](leetcode/104)     | Easy       | 82.43%  | 62.31%  |        |
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)                                                             | [Go](leetcode/118)     | Easy       | 100%    | 86.92%  |        |
 | 121  | [Best Time to Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                                | [Go](leetcode/121)     | Easy       |         |         |        |
 | 136  | [Single Number](https://leetcode.com/problems/single-number)                                                                    | [Go](leetcode/136)     | Easy       |         |         |        |
