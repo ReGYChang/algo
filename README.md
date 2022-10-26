@@ -42,6 +42,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)                                                          | [Go](leetcode/205)     | Easy       |         |         |        |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                        | [Go](leetcode/206)     | Easy       |         |         |        |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                          | [Go](leetcode/217)     | Easy       |         |         |        |
+| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)                                                          | [Go](leetcode/217)     | Easy       | 100%    | 70.21%  |        |
 | 232  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)                                      | [Go](leetcode/232)     | Easy       | 100%    | 85.17%  | F/U[v] |
 | 235  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-serach-tree)  | [Go](leetcode/235)     | Medium     |         |         |        |
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                      | [Go](leetcode/238)     | Medium     |         |         |        |
