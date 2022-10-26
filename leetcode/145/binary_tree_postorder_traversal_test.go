@@ -24,7 +24,7 @@ func Test_postorderTraversal(t *testing.T) {
 			args: args{
 				tree: []int{1, structure.NULL, 2, 3},
 			},
-			want: []int{1, 3, 2},
+			want: []int{3, 2, 1},
 		},
 		{
 			name: "145-2",
