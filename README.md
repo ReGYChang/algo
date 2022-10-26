@@ -27,7 +27,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)                                                          | [Go](leetcode/88)      | Easy       | 100%    | 85.10%  | F/U[v] |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-aversal)                                                   | [Go](leetcode/94)      | Easy       | 100%    | 27.93%  |        |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                        | [Go](leetcode/98)      | Medium     | 100%    | 85.09%  |        |
-| 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                                                                  | [Go](leetcode/98)      | Easy       | %       | %       |        |
+| 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                                                                  | [Go](leetcode/98)      | Easy       | 100%    | 100%    | F/U[x] |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                            | [Go](leetcode/102)     | Medium     | 67.53%  | 89.92%  |        |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)                                      | [Go](leetcode/104)     | Easy       | 82.43%  | 62.31%  |        |
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)                                                             | [Go](leetcode/118)     | Easy       | 100%    | 86.92%  |        |

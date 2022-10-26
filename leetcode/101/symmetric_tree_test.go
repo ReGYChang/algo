@@ -6,6 +6,9 @@ import (
 	"algo/structure"
 )
 
+//Runtime: 0 ms, faster than 100.00% of Go online submissions for Symmetric Tree.
+//Memory Usage: 2.8 MB, less than 100.00% of Go online submissions for Symmetric Tree.
+
 func Test_isSymmetric(t *testing.T) {
 	type args struct {
 		tree []int
@@ -28,6 +31,11 @@ func Test_isSymmetric(t *testing.T) {
 		{
 			name: "101-3",
 			args: args{[]int{1, 0}},
+			want: false,
+		},
+		{
+			name: "101-4",
+			args: args{[]int{1, 2, 3}},
 			want: false,
 		},
 	}
