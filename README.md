@@ -65,6 +65,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 589  | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal)                                    | [Go](leetcode/589)     | Easy       | 100%    | 79.22%  |        |
 | 653  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)                                          | [Go](leetcode/653)     | Easy       | 84.35%  | 87.15%  |        |
 | 692  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)                                                      | [Go](leetcode/692)     | Medium     |         |         | F/U[x] |
+| 701  | [Insert Into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)                              | [Go](leetcode/701)     | Medium     | 95.85%  | 80.83%  |        |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search)                                                                    | [Go](leetcode/704)     | Easy       | 91.93%  | 94.44%  |        |
 | 724  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)                                                              | [Go](leetcode/724)     | Easy       |         |         |        |
 | 733  | [Flood Fill](https://leetcode.com/problems/flood-fill)                                                                          | [Go](leetcode/733)     | Easy       | 33.70%  | 18.72%  |        |
