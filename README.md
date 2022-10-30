@@ -19,6 +19,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                    | [Java](leetcode/14)    | Easy       | 100%    | 5.48%   |        |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                            | [Go](leetcode/20)      | Easy       | 100%    | 99.53%  |        |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                  | [Go](leetcode/21)      | Easy       |         |         |        |
+| 26   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                        | [Go](leetcode/26)      | Easy       | 92.44%  | 82.73%  |        |
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)                                                                      | [Go](leetcode/36)      | Medium     | 100%    | 92.59%  |        |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                              | [Go](leetcode/53)      | Medium     | 64.52%  | 58.13%  | F/U[x] |
 | 62   | [Unique Paths](https://leetcode.com/problems/unique-paths)                                                                      | [Go](leetcode/62)      | Medium     | 100.00% | 75.66%  |        |
