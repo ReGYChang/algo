@@ -10,7 +10,7 @@ func findTarget(root *TreeNode, k int) bool {
 	m := make(map[int]int)
 	setMap(root, m)
 
-	for key, _ := range m {
+	for key := range m {
 		if count, exist := m[k-key]; exist && !(key == k-key && count < 2) {
 			return true
 		}

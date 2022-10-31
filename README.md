@@ -23,6 +23,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)                                                                      | [Go](leetcode/36)      | Medium     | 100%    | 92.59%  |        |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                              | [Go](leetcode/53)      | Medium     | 64.52%  | 58.13%  | F/U[x] |
 | 62   | [Unique Paths](https://leetcode.com/problems/unique-paths)                                                                      | [Go](leetcode/62)      | Medium     | 100.00% | 75.66%  |        |
+| 66   | [Plus One](https://leetcode.com/problems/plus-one)                                                                              | [Go](leetcode/62)      | Easy       | 100.00% | 64.91%  |        |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                                                                | [Go](leetcode/70)      | Easy       | 100%    | 91.21%  |        |
 | 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)                                                          | [Go](leetcode/74)      | Medium     | %       | %       |        |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)                                                          | [Go](leetcode/88)      | Easy       | 100%    | 85.10%  | F/U[v] |
