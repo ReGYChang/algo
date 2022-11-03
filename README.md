@@ -27,6 +27,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx)                                                                                  | [Go](leetcode/62)      | Easy       | 100%    | 82.21%  |        |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                                                                | [Go](leetcode/70)      | Easy       | 100%    | 91.21%  |        |
 | 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)                                                          | [Go](leetcode/74)      | Medium     | %       | %       |        |
+| 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)                          | [Go](leetcode/83)      | Easy       | 89.65%  | 85.61%  |        |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)                                                          | [Go](leetcode/88)      | Easy       | 100%    | 85.10%  | F/U[v] |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-aversal)                                                   | [Go](leetcode/94)      | Easy       | 100%    | 27.93%  |        |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                        | [Go](leetcode/98)      | Medium     | 100%    | 85.09%  |        |
