@@ -3,19 +3,19 @@
 Below record my solution and all my problem-sovling ideas, hope you have a good time.
 
 | No   | Title                                                                                                                          | Solution               | Difficulty | Runtime | Memory  | Memo   |
-|------| ------------------------------------------------------------------------------------------------------------------------------ |------------------------| ---------- |---------|---------|--------|
-| 1    | [Two Sum　](https://leetcode.com/problems/two-sum)                                                                             | [Go, Java](leetcode/1) | Easy       | 99.91%  | 5.65%   |        |
+|------|--------------------------------------------------------------------------------------------------------------------------------|------------------------|------------|---------|---------|--------|
+| 1    | [Two Sum　](https://leetcode.com/problems/two-sum)                                                                              | [Go, Java](leetcode/1) | Easy       | 99.91%  | 5.65%   |        |
 | 2    | [Add Two Numbers ](https://leetcode.com/problems/add-two-numbers)                                                              | [Java](leetcode/2)     | Medium     |         |         |        |
 | 3    | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Java](leetcode/3)     | Medium     |         |         |        |
 | 4    | [Median of Two Sorted Arrays ](https://leetcode.com/problems/median-of-two-sorted-arrays)                                      | [Java](leetcode/4)     | Hard       |         |         |        |
-| 5    | [Longest Palindromic Substring　](https://leetcode.com/problems/longest-palindromic-substring)                                 | [Java](leetcode/5)     | Medium     |         |         |        |
-| 7    | [Reverse Integer　](https://leetcode.com/problems/reverse-integer)                                                             | [Go, Java](leetcode/7) | Easy       | 100%    | 5.55%   |        |
-| 8    | [String To Integer(atoi)　](https://leetcode.com/problems/string-to-integer-atoi)                                              | [Java](leetcode/8)     | Medium     |         |         |        |
-| 9    | [Palindrome Number　](https://leetcode.com/problems/palindrome-number)                                                         | [Go, Java](leetcode/9) | Easy       |         |         |        |
-| 10   | [Regular Expression Matching　](https://leetcode.com/problems/regular-expression-matching)                                     | [Java](leetcode/10)    | Hard       |         |         |        |
-| 11   | [Container With Most Water　](https://leetcode.com/problems/container-with-most-water)                                         | [Java](leetcode/11)    | Medium     |         |         |        |
-| 12   | [Integer To Roman　](https://leetcode.com/problems/integer-to-roman)                                                           | [Java](leetcode/12)    | Medium     |         |         |        |
-| 13   | [Roman To Integer　](https://leetcode.com/problems/roman-to-integer)                                                           | [Java](leetcode/13)    | Easy       |         |         |        |
+| 5    | [Longest Palindromic Substring　](https://leetcode.com/problems/longest-palindromic-substring)                                  | [Java](leetcode/5)     | Medium     |         |         |        |
+| 7    | [Reverse Integer　](https://leetcode.com/problems/reverse-integer)                                                              | [Go, Java](leetcode/7) | Easy       | 100%    | 5.55%   |        |
+| 8    | [String To Integer(atoi)　](https://leetcode.com/problems/string-to-integer-atoi)                                               | [Java](leetcode/8)     | Medium     |         |         |        |
+| 9    | [Palindrome Number　](https://leetcode.com/problems/palindrome-number)                                                          | [Go, Java](leetcode/9) | Easy       |         |         |        |
+| 10   | [Regular Expression Matching　](https://leetcode.com/problems/regular-expression-matching)                                      | [Java](leetcode/10)    | Hard       |         |         |        |
+| 11   | [Container With Most Water　](https://leetcode.com/problems/container-with-most-water)                                          | [Java](leetcode/11)    | Medium     |         |         |        |
+| 12   | [Integer To Roman　](https://leetcode.com/problems/integer-to-roman)                                                            | [Java](leetcode/12)    | Medium     |         |         |        |
+| 13   | [Roman To Integer　](https://leetcode.com/problems/roman-to-integer)                                                            | [Java](leetcode/13)    | Easy       |         |         |        |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                   | [Java](leetcode/14)    | Easy       | 100%    | 5.48%   |        |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                           | [Go](leetcode/20)      | Easy       | 100%    | 99.53%  |        |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                 | [Go](leetcode/21)      | Easy       |         |         |        |
@@ -44,7 +44,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 144  | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)                                 | [Go](leetcode/144)     | Easy       | 12.62%  | 40.97%  |        |
 | 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)                               | [Go](leetcode/145)     | Easy       | 100%    | 90.24%  |        |
 | 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                | [Go](leetcode/160)     | Easy       | %       | %       |        |
-| 169  | [Majority Element](https://leetcode.com/problems/majority-element/description)                 | [Go](leetcode/169)     | Easy       | 75.69%  | 99.31%  | F/U[x] |
+| 169  | [Majority Element](https://leetcode.com/problems/majority-element/description)                                                 | [Go](leetcode/169)     | Easy       | 75.69%  | 99.31%  | F/U[x] |
 | 200  | [Numbers of Islands](https://leetcode.com/problems/numbers-of-islands)                                                         | [Go](leetcode/200)     | Medium     | 90.84%  | 46.68%  |        |
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)                                       | [Go](leetcode/203)     | Easy       | 90.19%  | 5.19%   |        |
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)                                                         | [Go](leetcode/205)     | Easy       |         |         |        |
@@ -72,6 +72,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 589  | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal)                                   | [Go](leetcode/589)     | Easy       | 100%    | 79.22%  |        |
 | 653  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)                                         | [Go](leetcode/653)     | Easy       | 84.35%  | 87.15%  |        |
 | 692  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)                                                     | [Go](leetcode/692)     | Medium     |         |         | F/U[x] |
+| 700   | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)                                 | [Go](leetcode/700)     | Easy       | 92.16%  | 90.46%  |  |
 | 701  | [Insert Into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)                             | [Go](leetcode/701)     | Medium     | 95.85%  | 80.83%  |        |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search)                                                                   | [Go](leetcode/704)     | Easy       | 91.93%  | 94.44%  |        |
 | 724  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)                                                             | [Go](leetcode/724)     | Easy       |         |         |        |
