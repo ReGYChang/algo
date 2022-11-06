@@ -7,8 +7,8 @@ import (
 	"algo/structure"
 )
 
-//Runtime: 20 ms, faster than 92.46% of Go online submissions for Two Sum IV - Input is a BST.
-//Memory Usage: 6.9 MB, less than 90.16% of Go online submissions for Two Sum IV - Input is a BST.
+//Runtime: 20 ms, faster than 92.46% of Go online submissions.
+//Memory Usage: 6.9 MB, less than 90.16% of Go online submissions.
 
 func Test_searchBST(t *testing.T) {
 	type args struct {
