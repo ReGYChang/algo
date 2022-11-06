@@ -75,3 +75,14 @@ func (l *ListNode) GetNodeWith(val int) *ListNode {
 	}
 	return res
 }
+
+func TailOfList(head *ListNode) *ListNode {
+	if head == nil {
+		return nil
+	}
+
+	for head.Next != nil {
+		head = head.Next
+	}
+	return head
+}
