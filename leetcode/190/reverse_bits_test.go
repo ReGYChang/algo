@@ -1,9 +1,9 @@
 package main
 
+import "testing"
+
 //Runtime: 0 ms, faster than 100% of Go online submissions.
 //Memory Usage: 2.5 MB, less than 69.90% of Go online submissions.
-
-import "testing"
 
 func Test_reverseBits(t *testing.T) {
 	type args struct {

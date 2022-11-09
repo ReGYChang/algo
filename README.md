@@ -46,7 +46,8 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                 | [Go](leetcode/160)     | Easy       | 34.35%  | 44.19%  | F/U[x] |
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element/description)                                                  | [Go](leetcode/169)     | Easy       | 75.69%  | 99.31%  | F/U[x] |
 | 171  | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)                                            | [Go](leetcode/171)     | Easy       | %       | %       |        |
-| 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits)                                                                      | [Go](leetcode/171)     | Easy       | 100%  | 69.90%   |        |
+| 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits)                                                                      | [Go](leetcode/171)     | Easy       | 100%    | 69.90%  |        |
+| 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)                                                              | [Go](leetcode/171)     | Easy       | 100%    | 92.10%  |        |
 | 200  | [Numbers of Islands](https://leetcode.com/problems/numbers-of-islands)                                                          | [Go](leetcode/200)     | Medium     | 90.84%  | 46.68%  |        |
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)                                        | [Go](leetcode/203)     | Easy       | 90.19%  | 5.19%   |        |
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)                                                          | [Go](leetcode/205)     | Easy       |         |         |        |
