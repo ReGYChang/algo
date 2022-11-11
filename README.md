@@ -49,6 +49,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits)                                                                      | [Go](leetcode/171)     | Easy       | 100%    | 69.90%  |        |
 | 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)                                                              | [Go](leetcode/171)     | Easy       | 100%    | 92.10%  |        |
 | 200  | [Numbers of Islands](https://leetcode.com/problems/numbers-of-islands)                                                          | [Go](leetcode/200)     | Medium     | 90.84%  | 46.68%  |        |
+| 202  | [Happy Number](https://leetcode.com/problems/happy-number)                                                                      | [Go](leetcode/200)     | Easy       | %       | %       |        |
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)                                        | [Go](leetcode/203)     | Easy       | 90.19%  | 5.19%   |        |
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)                                                          | [Go](leetcode/205)     | Easy       |         |         |        |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                        | [Go](leetcode/206)     | Easy       |         |         |        |
