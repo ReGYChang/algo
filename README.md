@@ -17,6 +17,7 @@ Below record my solution and all my problem-sovling ideas, hope you have a good 
 | 12   | [Integer To Roman　](https://leetcode.com/problems/integer-to-roman)                                                            | [Java](leetcode/12)    | Medium     |         |         |        |
 | 13   | [Roman To Integer　](https://leetcode.com/problems/roman-to-integer)                                                            | [Java](leetcode/13)    | Easy       |         |         |        |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                    | [Java](leetcode/14)    | Easy       | 100%    | 5.48%   |        |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                   | [Go](leetcode/17)      | Medium     | 100%    | 78.41%  |        |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                            | [Go](leetcode/20)      | Easy       | 100%    | 99.53%  |        |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                  | [Go](leetcode/21)      | Easy       |         |         |        |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                        | [Go](leetcode/26)      | Easy       | 92.44%  | 82.73%  |        |
