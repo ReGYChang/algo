@@ -29,9 +29,7 @@ A mapping of digits to letters (just like on the telephone buttons) is given bel
 
 ## Algorithm
 
-爬梯子過程中每次只能向上爬一步或是向上爬兩步, 即上到當前高度有兩種方法, 一種為當前高度下一階, 一種為當前高度下兩階
 
-假設 $C(n)$ 表示爬到高度 `n` 的不同方法總數, 則 $C(n)$ = $C(n-1)$ + $C(n-2)$
 
 ## Implementation
 
